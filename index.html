@@ -1,0 +1,90 @@
+<!doctype html>
+<!--
+   GIBS Web Examples
+   Copyright 2013 - 2018 United States Government as represented by the
+   Administrator of the National Aeronautics and Space Administration.
+   All Rights Reserved.
+   Licensed under the Apache License, Version 2.0 (the 'License');
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+       http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an 'AS IS' BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<html>
+
+<head>
+<meta property="og:title"              content="🤖 Space Apps 2020🌪 " />
+<meta property="og:url"                content="https://stormybot.talktoai.co/" />
+<meta property="og:type"               content="website" />
+<meta property="og:description"        content=" Intro a los NASA APIs: Imagenes Satelitales, Observacion de la Tierra, Mision Rover en Marte, otras. " />
+<meta property="og:image"              content="https://apod.nasa.gov/apod/image/2008/PIA22089OrionValley.jpg" />
+
+   <script src='GIBSapi/main.js'></script>
+   <link rel='stylesheet' href='GIBSapi/main.css' />
+   <script src='GIBSapi/ol.js'></script>
+   <link rel='stylesheet' href='GIBSapi/ol.css' />
+
+
+</head>
+
+<body>
+
+<header id="header">
+        <h1> 🤖 Space Apps 2020 🌪 Demo NASA APIs </span></a></h1>
+      </header>
+
+    <div id='map'></div>
+    <div id='day-panel'>
+        <div id='day-label'></div>
+        <input id="day-slider" type="range" min="-6" max="0" value="0"></div>
+    </div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <div id='attribution' class="center" class="container">
+<h1>🤖Stormy Alerts⚠️  </h1>
+<h1>📍Puerto Rico </h1>
+<button onclick="alertFunction()" class="btn success">Reporte</button>
+<button onclick="dangerFunction()" class="btn danger">Alertas</button>
+<button onclick="predictionFunction()" class="btn warning">Predicción</button>
+
+<style>
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  width:100%;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.warning {background-color: #2196F3;} /* Blue */
+.warning:hover {background: #0b7dda;}
+
+.info {background-color: #ff9800;} /* Orange */
+.info:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  width: 200px;
+}
+</style>
+
+  </body>
+
+</html>
+
