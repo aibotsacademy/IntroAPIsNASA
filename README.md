@@ -13,6 +13,9 @@
 #### Manos a la obra!
 
 > Paso 1: Crear una cuenta en NASA Open APIs: https://api.nasa.gov/
+```
+sM9dReXlARhfcp9ctZGxUt8wItACbqJTLMCW3YiI
+```
 
 > Paso 2: Genera los credenciales de tu API Key:
 
