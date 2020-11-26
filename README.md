@@ -10,8 +10,6 @@
 [![Pitch](https://img.youtube.com/vi/6D3bOMDwhJA/0.jpg)](https://youtu.be/Jn-0g8E-uLw)
 
 
-![Test Image 4](https://github.com/aibotsacademy/IntroAPIsNASA/blob/main/IMG/model.png)
-
 #### Manos a la obra!
 
 > Paso 1: Crear una cuenta en NASA Open APIs: https://api.nasa.gov/
@@ -169,6 +167,9 @@ window.onload = function () {
       })
     });
 ```
+
+![Test Image 4](https://github.com/aibotsacademy/IntroAPIsNASA/blob/main/IMG/model.png)
+
 
 Términos Clave:
 
