@@ -7,6 +7,9 @@
 
 #### En este Taller aprenderemos sobre el uso de APIs de la NASA para visualizar datos como: Imágenes Satelitales y de Observación de la Tierra, entre muchos otros más! 
 
+[![Pitch](https://img.youtube.com/vi/6D3bOMDwhJA/0.jpg)](https://youtu.be/Jn-0g8E-uLw)
+
+
 ![Test Image 4](https://github.com/aibotsacademy/IntroAPIsNASA/blob/main/IMG/model.png)
 
 #### Manos a la obra!
